@@ -16,3 +16,8 @@ insert into t_produit (id, reference, libelle, est_du_jour, prix, quantite_en_st
 (default, 'REF003', 'Phial de Galadriel', true, 89.99, 3);
 
 select * from t_produit p where p.est_du_jour = true;
+
+alter table t_produit add image_url varchar(255);
+update t_produit set image_url = 'vin_elrond.jpg' where id = 'PRO0001';
+update t_produit set image_url = 'hache.jpg' where id = 'PRO0002';
+update t_produit set image_url = 'potion_des_istari.jpg' where id = 'PRO0003';
