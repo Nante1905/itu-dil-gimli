@@ -13,7 +13,7 @@ create table t_produit (
 insert into t_produit (id, reference, libelle, est_du_jour, prix, quantite_en_stock) values
 (default, 'REF001', 'Vin Elrond', false, 34.90, 12),
 (default, 'REF002', 'Hache de Gimli', false, 15.00, 0),
-(default, 'REF003', 'Phial de Galadriel', true, 89.99, 3);
+(default, 'REF003', 'Potion des Istari', true, 89.99, 3);
 
 select * from t_produit p where p.est_du_jour = true;
 
