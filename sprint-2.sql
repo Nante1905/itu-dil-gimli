@@ -10,9 +10,9 @@ create table t_client (
 
 
 
-insert into t_client values (default, 'dori_forgeron', 'Brumeforge', 'Dorin', 'MontagneDeFeu42!');
-insert into t_client values (default, 'naer_la_claire', 'Elenvyr', 'Naerwen', 'FeuillageLorien9*');
-insert into t_client values (default, 'wulf_de_rohan', 'Grimbald', 'Wulfric', 'ChevalBlanc77#');
-insert into t_client values (default, 'kheled_marteau', 'Kheledul', 'Thrainor', 'Mithril_Forge88$');
+insert into t_client values (default, 'dori_forgeron', 'Brumeforge', 'Dorin', 'MontagneDeFeu42!', 'dorin.jpg');
+insert into t_client values (default, 'naer_la_claire', 'Elenvyr', 'Naerwen', 'FeuillageLorien9*', 'naerwen.jpg');
+insert into t_client values (default, 'wulf_de_rohan', 'Grimbald', 'Wulfric', 'ChevalBlanc77#', 'wulfric.jpg');
+insert into t_client values (default, 'kheled_marteau', 'Kheledul', 'Thrainor', 'Mithril_Forge88$', 'thrainor.jpg');
 
 select * from t_client c where c.pseudo = '' and c.mot_de_passe = '';
